@@ -5,4 +5,13 @@
     #hamburger-nav{
         display: flex;
     }
+
+    a::after{
+        display: none;
+    }
+
+    a:hover{
+        color: grey;
+    }
+
 }

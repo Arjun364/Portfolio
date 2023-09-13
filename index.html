@@ -6,10 +6,13 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Arjun AV</div>
+        <div class="logo-nav">Arjun AV</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -35,6 +38,26 @@
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="/assets/Profile Photo.png" alt="Profile picture">
+        </div>
+        <div class="section-text-container">
+            <p class="section-text-p1">Hello I'm</p>
+            <h1 class="title">Arjun AV</h1>
+            <p class="section-text-p2">Frontend Developer.</p>
+            <div class="btn-container">
+                <button type="button" class="btn btn-1-color" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button type="button" class="btn btn-2-color" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="socials-container">
+                <img src="./assets/linkedin.png" alt="linkedin-logo" class="logo" onclick="location.href='https://www.linkedin.com/in/arjun-av-b89481233/'">
+
+                <img src="./assets/github.png" alt="linkedin-logo" class="logo" onclick="location.href='https://github.com/Arjun364'">
+            </div>
+
+        </div>
+    </section>
     <script src="scripts.js"></script>
 </body>
 </html>

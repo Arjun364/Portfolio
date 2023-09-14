@@ -234,10 +234,11 @@ section{
     margin-bottom: 1rem;
     color:rgb(85, 85, 85);
     font-weight: 600;
-
+    
 }
 
 .section-text-p1{
+    text-align: center;
     color:rgb(85, 85, 85);
     font-size: 1rem;
     font-weight: 400;
@@ -259,6 +260,8 @@ section{
 
 .logo{
     height: 2rem;
+}
+.logo:hover{
     cursor: pointer;
 }
 
@@ -306,7 +309,59 @@ section{
     border-color: white;
 }
 
+/* About-Section------------------------------------------ */
 
+#about{
+    position: relative;
+}
 
+.about-container{
+    gap: 2rem;
+    margin: 2rem 0rem ;
 
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container,
+.about-details-container{
+    display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.detail-container{
+    padding: 1.5rem;
+    flex: 1;
+    border: .1rem solid rgb(163, 163, 163);
+    border-radius: 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+#about p{
+    color: rgb(85, 85, 85);
+}
+
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
+
+.section-pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
 

@@ -1,17 +1,16 @@
 @media screen and (max-width: 1200px) {
-    #desktop-nav{
-        display: none;
-    }
-    #hamburger-nav{
-        display: flex;
-    }
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
 
-    a::after{
-        display: none;
-    }
+  a::after {
+    display: none;
+  }
 
-    a:hover{
-        color: grey;
-    }
-
+  a:hover {
+    color: grey;
+  }
 }

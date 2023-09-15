@@ -506,3 +506,22 @@ section{
   .email-icon{
     height: 2.5rem;
   }
+
+  /* footer-section-------------------------------------- */
+
+  footer{
+    height: 26vh;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+
+  }
+
+  footer p{
+    color: rgb(85, 85, 85);
+    font-size: 1.04rem;
+  }
+

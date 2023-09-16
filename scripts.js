@@ -9,14 +9,20 @@ function toggleMenu(){
 
 // Wait for the website to load
 window.addEventListener('load', () => {
-    // Remove the preloader
-    const preloader = document.querySelector('.preloader');
-    preloader.style.display = 'none';
+    // Simulate a delay (in milliseconds) before hiding the preloader and showing content
+    const delayDuration = 1500; // 2 seconds (you can adjust this value)
 
-    // Show the content
-    const content = document.querySelector('.content');
-    content.style.display = 'block';
+    setTimeout(() => {
+        // Remove the preloader
+        const preloader = document.querySelector('.preloader');
+        preloader.style.display = 'none';
 
-    // Enable scrolling
-    document.body.style.overflow = 'auto';
+        // Show the content
+        const content = document.querySelector('.content');
+        content.style.display = 'block';
+
+        // Enable scrolling
+        document.body.style.overflow = 'auto';
+    }, delayDuration);
 });
+
